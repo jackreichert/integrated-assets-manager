@@ -1,0 +1,23 @@
+#attached_assets .asset-button { display: block; margin: 1em auto; }
+#attached_assets li { cursor: move; }
+#attached_assets .corner { color: #0074a2; cursor: pointer; position: absolute; right: 0.5em; }
+#attached_assets .corner:hover { color: #83B4D8; }
+#attached_assets .edit { right: 1.5em; }
+#attached_assets.done.button-small { top: 0.85em; }
+#attached_assets .corner.cancel { font-size: 0.85em; right: 6em; top: 0.8em; }
+#attached_assets .corner.trash { font-size: 0.85em; color: #a00; top: 4.25em; right: 0.85em; }
+#attached_assets .corner.trash:hover { color: #f00 }
+#attached_assets .asset { width: 100%; border: 1px solid #dfdfdf; padding: 1em; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; list-style: none; }
+#attached_assets .niceName input { width: 65%; }
+#attached_assets .assets { clear: both; margin: 0.5em 0; line-height: 2em; }
+#attached_assets .assetMeta { cursor: move; }
+#attached_assets .assets input[type=number], #attached_assets  .asset_meta select { vertical-align: middle; font-size: 0.85em; }
+#attached_assets .assets input[type=number] { width: 4em; }
+#attached_assets .assets li { background: white; }
+#attached_assets .assets li .expired { text-decoration: line-through; }
+#attached_assets .assetLink { width: 80%; }
+#attached_assets .assetHits { position: absolute; bottom: -1px; right: -1px; font-weight: bold; font-size: 0.75em; color: #ababab; padding: 0 0.5em; border: 1px solid #dfdfdf; }
+
+@media screen and (max-width: 782px) {
+	#attached_assets .corner.cancel { right: 6em; top: 1em; font-size: 1em; }
+}
